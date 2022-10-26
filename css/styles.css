@@ -1,0 +1,164 @@
+body {
+  font-family: "Montserrat-Bold";
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+/* sections */
+.colored-section {
+  background-color: #ff4c68;
+}
+.white-section {
+  background-color: #ffff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+  color: #3F704D;
+}
+p {
+  font-family: "Montserrat-Bold";
+  font-size: 1.5rem;
+  color: #ffff;
+}
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: "Montserrat-Bold";
+  color: #ffff;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5rem;
+}
+/* title section*/
+/*#title {
+  text-align: left;
+}
+refactoring part2
+*/
+/* only for title section*/
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ububtu";
+  font-size: 2.5rem;
+  font-style: Bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+/*Download Buttom */
+.downBtn {
+  margin: 5% 3% 5% 0%;
+}
+/*Title image*/
+.iphoneImage {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 56.5%;
+}
+
+/*Features*/
+#features {
+  background-color: #ffff;
+  position: relative;
+  z-index: 1; /*can without just use position*/
+}
+.features-box {
+  /*text-align: center;*/
+  padding: 5%;
+}
+.features-title {
+  font-size: 1.5rem;
+}
+p {
+  color: #8f8f8f;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1.2rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+/*Testimonial Section*/
+#testimonials {
+  /*text-align: center;*/
+  background-color: #ef8172;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5em;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px; /*All around*/
+}
+
+/*Press Section*/
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  /*text-align: center;*/
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5em;
+}
+.pricing-col {
+  padding: 3% 3%;
+}
+
+/* Call to Action */
+.downCta {
+  margin: 5% 3% 3% 0%;
+}
+
+/* footer */
+#footer {
+  /*text-align: center;*/
+  /*background-color: #ffff;  refactoring part2*/
+  padding: 3.5%;
+}
+.footer-logo {
+  width: 15%;
+  margin: 5% 20px 10px;
+}
+/* CSS Native Functionality */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .iphoneImage {
+    position: static;
+    transform: rotate(0);
+  }
+}

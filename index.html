@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TinCat</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="/js/all.js"></script>
+  </head>
+
+  <body>
+    <section class="colored-section" id="title">
+      <div class="container-fluid">
+        <!--66 Nav Bar -->
+        <nav class="navbar bg-red navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">TinCat</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+        <div class="row">
+          <!--Added by me: grid row-col-->
+          <div class="col-lg-6">
+            <h1 class="big-heading">Meet new and interesting cats nearby.</h1>
+            <button type="button" class="btn btn-dark btn-lg downBtn">
+              <i class="fab fa-apple"></i> Download
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg downBtn">
+              <i class="fab fa-google-play"></i>Download
+            </button>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="iphoneImage"
+              src="images/catwithphone.jpg"
+              alt="iphone-mockup"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section class="white-section" id="features">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="features-box col-lg-4 col-md-12">
+            <i class="icon fas fa-check-circle fa-4x"></i>
+            <h3 class="features-title">Easy to use.</h3>
+            <p>So easy to use, even your cat could do it.</p>
+          </div>
+          <div class="features-box col-lg-4 col-md-12">
+            <i class="icon fas fa-bullseye fa-4x"></i>
+            <h3 class="features-title">Elite Clientele</h3>
+            <p>We have all the cats, the greatest cats.</p>
+          </div>
+          <div class="features-box col-lg-4 col-md-12">
+            <i class="icon fas fa-heart fa-4x"></i>
+            <h3 class="features-title">Guaranteed to work.</h3>
+            <p>Find the love of your cat's life or your money back.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section class="colored-section" id="testimonials">
+      <div
+        id="testimonial-carousel"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h2 class="testimonial-text">
+              I no longer have to sniff other cats for love. I've found the
+              hottest Curl on TinCat. Meow.
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/adorable_cat.png"
+              alt="cat-profile"
+            />
+            <em>Pepe, New York</em>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">
+              My cat used to be so lonely, but with TinCat's help, they've found
+              the love of their life. I think.
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/personal.png"
+              alt="per-profile"
+            />
+            <em>Luq, HK</em>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonial-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonial-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section class="colored-section" id="press">
+      <img class="press-logo" src="images/techcrunch.png" alt="tc-logo" />
+      <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
+      <img
+        class="press-logo"
+        src="images/bizinsider.png"
+        alt="biz-insider-logo"
+      />
+      <img class="press-logo" src="images/mashable.png" alt="mashable-logo" />
+    </section>
+
+    <!-- Pricing -->
+
+    <section class="white-section" id="pricing">
+      <h2 class="section-heading">A Plan for Every Cat's Needs</h2>
+      <p>Simple and affordable price plans for your and your cat.</p>
+      <div class="container">
+        <div class="row">
+          <div class="pricing-col col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3>Chihuahua</h3>
+              </div>
+              <div class="card-body">
+                <h2 class="price-text">Free</h2>
+                <p>5 Matches Per Day</p>
+                <p>10 Messages Per Day</p>
+                <p>Unlimited App Usage</p>
+                <button type="button" class="w-100 btn btn-lg btn-outline-dark">
+                  Sign up for free
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="pricing-col col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3>Labrador</h3>
+              </div>
+              <div class="card-body">
+                <h2 class="price-text">$49 / mo</h2>
+                <p>Unlimited Matches</p>
+                <p>Unlimited Messages</p>
+                <p>Unlimited App Usage</p>
+                <button type="button" class="w-100 btn btn-lg btn-dark">
+                  Sign up for free
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="pricing-col col-lg-4 col-md-12">
+            <div class="card">
+              <div class="card-header">
+                <h3>Mastiff</h3>
+              </div>
+              <div class="card-body">
+                <h2 class="price-text">$99 / mo</h2>
+                <p>Pirority Listing</p>
+                <p>Unlimited Matches</p>
+                <p>Unlimited Messages</p>
+                <p>Unlimited App Usage</p>
+                <button type="button" class="w-100 btn btn-lg btn-dark">
+                  Sign up for free
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="colored-section" id="cta">
+      <div container-fluid>
+        <h3 class="big-heading">
+          Find the True Love of Your Cat's Life Today.
+        </h3>
+        <button type="button" class="btn btn-lg btn-dark downCta">
+          <i class="fab fa-apple"></i>Download
+        </button>
+        <button type="button" class="btn btn-lg btn-light downCta">
+          <i class="fab fa-google-play"></i>Download
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="white-section" id="footer">
+      <div container-fluid>
+        <i class="footer-logo fab fa-twitter"></i>
+        <i class="footer-logo fab fa-facebook-f"></i>
+        <i class="footer-logo fab fa-instagram"></i>
+        <i class="footer-logo fas fa-envelope"></i>
+        <p>© Copyright 2021 TinCat</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+      integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
